@@ -1,0 +1,82 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+
+	<title>Building a Portfolio Site</title>
+	<meta name="description" content="Project #2 in the Udacity Front End Developer Nanodegree Certification Program">
+	<meta name="author" content="Aleksandar Petrovic">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=Bubbler+One%7CPlayfair+Display" rel="stylesheet">
+	<link rel="stylesheet" href="css/styles.css" type="text/css">
+
+	<!--[if lt IE 9]>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+	<![endif]-->
+</head>
+
+<body>
+	<div class="container-flex">
+		<header class="border-bottom padding-horizontal">
+			<!-- Header Row - contains logo, name and title. -->
+			<div class="row-flex">
+				<div class="col-flex-xs-12 col-flex-md-2">
+					<img id="img-logo" class="img-responsive" src="img/image-0.jpg" alt="Image of a logo.">
+				</div>
+				<div class="col-flex-xs-12 col-flex-md-10">
+					<h1 id="portfolio-name" class="text-right font-main">
+						Aleksandar Petrovic
+					</h1>
+					<p id="portfolio-title" class="text-right font-sub">
+						Front End Monster - in training.
+					</p>
+				</div>
+			</div>
+		</header>
+	</div>	
+	<div class="container-flex">
+		<section class="section">
+			<!-- Content Row - contains highlighted image, three featured works with their respective name and link. -->
+			<div class="row-flex">
+				<div class="col-flex-xs-12 col-flex-md-12">
+					<img id="img-highlighted" class="img-responsive" src="img/image-1.jpg" alt="Image of highlighted content.">
+				</div>
+			</div>
+			<div class="row-flex">
+				<div class="col-flex-xs-12 col-flex-md-12">
+					<h2 class="font-main">
+						Featured Work
+					</h2>
+				</div>
+			</div>
+			<div class="row-flex">
+				<div class="col-flex-xs-12 col-flex-md-4">
+					<div class="portfolio-item">
+						<img class="img-responsive" src="img/image-2.jpg" alt="Image of first featured work.">
+						<h3 class="text-center font-sub">Featured Work One</h3>
+						<p class="text-center font-sub"><a href="#" title="See Featured Work">www.linktofeaturedwork.com</a></p>
+					</div>
+				</div>
+				<div class="col-flex-xs-12 col-flex-md-4">
+					<div class="portfolio-item">
+						<img class="img-responsive" src="img/image-3.jpg" alt="Image of secound featured work.">
+						<h3 class="text-center font-sub">Featured Work Two</h3>
+						<p class="text-center font-sub"><a href="#" title="See Featured Work">www.linktofeaturedwork.com</a></p>
+					</div>	
+				</div>
+				<div class="col-flex-xs-12 col-flex-md-4">
+					<div class="portfolio-item">
+						<img class="img-responsive" src="img/image-4.jpg" alt="Image of third featured work.">
+						<h3 class="text-center font-sub">Featured Work Three</h3>
+						<p class="text-center font-sub"><a href="#" title="See Featured Work">www.linktofeaturedwork.com</a></p>
+					</div>
+				</div>
+			</div>
+		</section>
+		
+	</div>
+
+  <script src="js/scripts.js"></script>
+</body>
+</html>

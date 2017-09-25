@@ -1,0 +1,126 @@
+*  {
+	padding: 0;
+	margin: 0;
+}
+
+body  {
+	padding: 20px;
+	background: #f0f8ff;
+}
+
+h1  {
+	margin-top: 10px;
+	margin-bottom: 25px;
+}
+
+h2 {
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+h3 {
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+p {
+	margin-top: 5px;
+	margin-bottom: 10px;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	color: #02b3e4;
+	font-weight: bold;
+}
+
+.font-main {
+	font-family: 'Playfair Display', serif;
+	color: #2d3c49;
+}
+
+.font-sub {
+	font-family: 'Bubbler One', sans-serif;
+	color: #7d97ad;
+}
+
+/* 
+*	Grid Classes 
+*	Percents based on 
+*	(100/12) * x; 
+*	where x = col size 
+*/
+   
+.container-flex {
+	padding: 0 15px;
+	margin: 0 0 20px 0;
+}
+
+.row-flex  {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+/* Column sizes for small devices */
+
+[class*="col-flex-xs"] {
+	padding:0 10px;
+}
+
+.col-flex-xs-12  {
+	width: 100%;
+}
+
+
+/* Column sizes for medium devices */
+@media screen and (min-width:767px) {
+	.row-flex  {
+		flex-wrap: nowrap;
+	}
+	
+	.col-flex-md-2 {
+		width: 16.66666667%;
+	}
+
+	.col-flex-md-4 {
+		width: 33.3333333333%;
+	}
+
+	.col-flex-md-8 {
+		width: 66.666666667%;
+	}
+
+	.col-flex-md-10 {
+		width: 83.333333333%;
+	}
+
+	.col-flex-md-12 {
+		width: 100%;
+	}
+}
+
+
+/* Utility Classes */
+.img-responsive {
+	width: 100%;
+}
+
+.text-right {
+	text-align: right;
+}
+
+.text-center {
+	text-align: center;
+}
+
+.padding {
+	padding: 10px;
+}
+
+.border-bottom {
+	border-bottom: 5px solid #eee;
+}
